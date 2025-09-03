@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tiny polish */
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+.card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-100;
+}
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 font-medium transition;
+}
+.btn-primary {
+  @apply btn bg-blue-600 text-white hover:bg-blue-700;
+}
+.btn-ghost {
+  @apply btn bg-white border border-gray-200 hover:bg-gray-50;
+}
+.badge {
+  @apply inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-700;
+}
