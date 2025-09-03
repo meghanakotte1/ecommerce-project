@@ -13,3 +13,21 @@ This is a full-stack e-commerce web application built with:
 
 ## Project Structure
 
+ecommerce-project/
+├── backend/ # Spring Boot backend
+├── frontend/ # React frontend
+├── .gitignore
+└── README.md
+
+
+## How to Run
+
+### Backend
+
+```bash
+cd backend
+mvn spring-boot:run
+
+cd frontend
+npm install
+npm start
